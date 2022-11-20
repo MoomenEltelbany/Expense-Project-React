@@ -4,6 +4,10 @@ import Card from "../UI/Card";
 import "./ExpenseItem.css";
 
 const ExpenseItem = (props) => {
+    const clickHandler = () => {
+        console.log("Hello");
+    };
+
     return (
         <>
             <Card className="expense-item">
@@ -14,6 +18,7 @@ const ExpenseItem = (props) => {
                         {props.amount} CAD
                     </div>
                 </div>
+                <button onClick={clickHandler}>Change Title</button>
             </Card>
         </>
     );
