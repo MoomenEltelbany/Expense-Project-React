@@ -2,6 +2,6 @@ import React from "react";
 
 import "./ChartBar.css";
 
-const chartBar = () => {};
+const ChartBar = () => {};
 
-export default chartBar;
+export default ChartBar;
